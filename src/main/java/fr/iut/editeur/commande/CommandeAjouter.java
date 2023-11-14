@@ -1,7 +1,9 @@
 package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
-
+/**
+ *Classe qui crée un commande permettant d'ajouter du texte dans l'éditeur
+*/
 public class CommandeAjouter extends CommandeDocument {
 
 
