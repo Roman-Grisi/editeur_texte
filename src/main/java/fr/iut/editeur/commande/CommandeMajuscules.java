@@ -2,6 +2,9 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
+/**
+ *Classe qui crée une commande qui met une partie du texte en majuscules
+*/
 public class CommandeMajuscules extends CommandeDocument{
 
     public CommandeMajuscules(Document document,String[] parameters){
